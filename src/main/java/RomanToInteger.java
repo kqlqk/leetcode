@@ -1,12 +1,11 @@
 package main.java;
 
-public class Main {
-    // Roman to Integer
+public class RomanToInteger {
 
-    public static void main(String[] args) {
-        System.out.println(new Main().romanToInt("MCMXCIV"));
-        System.out.println(new Main().romanToInt("LVIII"));
-    }
+    //    public static void main(String[] args) {
+//        System.out.println(new RomanToInteger().romanToInt("MCMXCIV"));
+//        System.out.println(new RomanToInteger().romanToInt("LVIII"));
+//    }
 
     public int romanToInt(String s) {
         char[] sChars = s.toCharArray();
